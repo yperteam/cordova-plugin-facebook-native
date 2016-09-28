@@ -25,6 +25,8 @@
       <header-file src="platforms/ios/FacebookNativeSDK.h" />
       <source-file src="platforms/ios/FacebookNativeSDK.m" />
 
+      <param name="ios-package" value="FacebookNativeSDK"/>
+
 
       <!-- FB require this variables in Plist -->
       <config-file target="*-Info.plist" parent="FacebookAppID">
