@@ -12,4 +12,6 @@
 
 @interface FacebookNativeSDK : CDVPlugin
 
+- (void)activateApp:(CDVInvokedUrlCommand*)command;
+
 @end
