@@ -1,0 +1,51 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A20D666FF4B08EFE53F147818C2D4D17E2242912",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "61C4B9E3B61282127C102C87B46B8CDE985974AE" : 0,
+    "E4BCE3AE6B24E41B9BCE312FF3B0B6CD0B8B8025" : 0,
+    "A20D666FF4B08EFE53F147818C2D4D17E2242912" : 0,
+    "A11A2549D5CB40607BCC5ED8DF4A3BF3E6CE30E2" : 0,
+    "0DCFF0852789D5A49F67B6C8EA2636735D303748" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2B993DEB-FA6B-47AA-9141-F90DC14A6A36",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "61C4B9E3B61282127C102C87B46B8CDE985974AE" : "ios-sdk2\/Bolts-IOS\/",
+    "E4BCE3AE6B24E41B9BCE312FF3B0B6CD0B8B8025" : "ios-sdk2\/vendor\/OCMock\/",
+    "A20D666FF4B08EFE53F147818C2D4D17E2242912" : "ios-sdk2\/",
+    "A11A2549D5CB40607BCC5ED8DF4A3BF3E6CE30E2" : "ios-sdk2\/vendor\/OHHTTPStubs\/",
+    "0DCFF0852789D5A49F67B6C8EA2636735D303748" : "ios-sdk2\/Bolts-IOS\/Vendor\/xctoolchain\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Scrumptious",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "samples\/Scrumptious\/Scrumptious.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ParsePlatform\/xctoolchain.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0DCFF0852789D5A49F67B6C8EA2636735D303748"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/github.com\/BoltsFramework\/Bolts-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "61C4B9E3B61282127C102C87B46B8CDE985974AE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/github.com\/AliSoftware\/OHHTTPStubs.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A11A2549D5CB40607BCC5ED8DF4A3BF3E6CE30E2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/projects.git.vip.facebook.com\/data\/gitrepos\/ios-sdk",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A20D666FF4B08EFE53F147818C2D4D17E2242912"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/github.com\/erikdoe\/ocmock",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E4BCE3AE6B24E41B9BCE312FF3B0B6CD0B8B8025"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="cordova-plugin-facebook-native-sdk" version="0.2.3">
+    <name>Facebook-Native-SDK</name>
+    <description>Facebook Native SDK</description>
+    <license>Apache 2.0</license>
+    <keywords>facebook,native,sdk,plugin</keywords>
+
+    <preference name="FACEBOOK_APP_ID" />
+    <preference name="FACEBOOK_APP_NAME" />
+
+    <js-module src="www/index.js" name="index">
+    </js-module>
+    <platform name="ios">
+
+      <!-- Include FBSDK frameworks -->
+      <framework src="platforms/ios/FacebookSDKs-iOS-4.15.1/FBSDKCoreKit.framework" custom="true" />
+      <framework src="platforms/ios/FacebookSDKs-iOS-4.15.1/FBSDKLoginKit.framework" custom="true" />
+      <framework src="platforms/ios/FacebookSDKs-iOS-4.15.1/FBSDKShareKit.framework" custom="true" />
+      <framework src="platforms/ios/FacebookSDKs-iOS-4.15.1/FBSDKMessengerShareKit.framework" custom="true" />
+      <framework src="platforms/ios/FacebookSDKs-iOS-4.15.1/FBSDKNotificationsKit.framework" custom="true" />
+      <framework src="platforms/ios/FacebookSDKs-iOS-4.15.1/FBAudienceNetwork.framework" custom="true" />
+      <framework src="platforms/ios/FacebookSDKs-iOS-4.15.1/AccountKit.framework" custom="true" />
+
+      <!-- FB require this variables in Plist -->
+      <config-file target="*-Info.plist" parent="FacebookAppID">
+          <string>$APP_ID</string>
+      </config-file>
+
+      <config-file target="*-Info.plist" parent="FacebookDisplayName">
+          <string>$APP_NAME</string>
+      </config-file>
+
+      <config-file target="*-Info.plist" parent="CFBundleURLTypes">
+        <array>
+          <dict>
+            <key>CFBundleURLSchemes</key>
+            <array>
+              <string>fb$APP_ID</string>
+            </array>
+          </dict>
+        </array>
+      </config-file>
+
+      <config-file target="*-Info.plist" parent="LSApplicationQueriesSchemes">
+        <array>
+          <string>fbapi</string>
+          <string>fb-messenger-api</string>
+          <string>fbauth2</string>
+          <string>fbshareextension</string>
+        </array>
+      </config-file>
+    </platform>
+</plugin>
