@@ -11,6 +11,7 @@
 
     <js-module src="www/index.js" name="index">
     </js-module>
+    
     <platform name="ios">
 
       <!-- Include FBSDK frameworks -->
