@@ -24,11 +24,11 @@
 
       <!-- FB require this variables in Plist -->
       <config-file target="*-Info.plist" parent="FacebookAppID">
-          <string>$APP_ID</string>
+          <string>$FACEBOOK_APP_ID</string>
       </config-file>
 
       <config-file target="*-Info.plist" parent="FacebookDisplayName">
-          <string>$APP_NAME</string>
+          <string>$FACEBOOK_APP_NAME</string>
       </config-file>
 
       <config-file target="*-Info.plist" parent="CFBundleURLTypes">
@@ -36,7 +36,7 @@
           <dict>
             <key>CFBundleURLSchemes</key>
             <array>
-              <string>fb$APP_ID</string>
+              <string>fb$FACEBOOK_APP_ID</string>
             </array>
           </dict>
         </array>
