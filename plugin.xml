@@ -17,12 +17,7 @@
       <framework src="platforms/ios/FacebookSDKs-iOS-4.15.1/FBSDKCoreKit.framework" custom="true" />
       <framework src="platforms/ios/FacebookSDKs-iOS-4.15.1/FBSDKLoginKit.framework" custom="true" />
       <framework src="platforms/ios/FacebookSDKs-iOS-4.15.1/FBSDKShareKit.framework" custom="true" />
-      <framework src="platforms/ios/FacebookSDKs-iOS-4.15.1/FBSDKMessengerShareKit.framework" custom="true" />
-      <framework src="platforms/ios/FacebookSDKs-iOS-4.15.1/FBNotifications.framework" custom="true" />
-      <framework src="platforms/ios/FacebookSDKs-iOS-4.15.1/FBAudienceNetwork.framework" custom="true" />
-      <framework src="platforms/ios/FacebookSDKs-iOS-4.15.1/AccountKit.framework" custom="true" />
-      <framework src="platforms/ios/FacebookSDKs-iOS-4.15.1/Bolts.framework" custom="true" />
-
+      
       <!-- FB require this variables in Plist -->
       <config-file target="*-Info.plist" parent="FacebookAppID">
           <string>$FACEBOOK_APP_ID</string>
