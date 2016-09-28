@@ -18,7 +18,7 @@
       <framework src="platforms/ios/FacebookSDKs-iOS-4.15.1/FBSDKLoginKit.framework" custom="true" />
       <framework src="platforms/ios/FacebookSDKs-iOS-4.15.1/FBSDKShareKit.framework" custom="true" />
       <framework src="platforms/ios/FacebookSDKs-iOS-4.15.1/FBSDKMessengerShareKit.framework" custom="true" />
-      <framework src="platforms/ios/FacebookSDKs-iOS-4.15.1/FBSDKNotificationsKit.framework" custom="true" />
+      <framework src="platforms/ios/FacebookSDKs-iOS-4.15.1/FBNotifications.framework" custom="true" />
       <framework src="platforms/ios/FacebookSDKs-iOS-4.15.1/FBAudienceNetwork.framework" custom="true" />
       <framework src="platforms/ios/FacebookSDKs-iOS-4.15.1/AccountKit.framework" custom="true" />
 
