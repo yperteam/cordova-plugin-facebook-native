@@ -9,9 +9,10 @@
     <preference name="FACEBOOK_APP_ID" />
     <preference name="FACEBOOK_APP_NAME" />
 
-    <js-module src="www/index.js" name="index">
+    <js-module src="www/FacebookNativeSDK.js" name="FacebookNativeSDK">
+        <clobbers target="FacebookNativeSDK" />
     </js-module>
-    
+
     <platform name="ios">
 
       <!-- Include FBSDK frameworks -->

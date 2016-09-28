@@ -9,4 +9,6 @@ var FacebookNativeSDK = {
 
 }
 
+window.FacebookNativeSDK = FacebookNativeSDK;
+
 module.exports = FacebookNativeSDK;
