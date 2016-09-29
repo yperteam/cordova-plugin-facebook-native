@@ -18,10 +18,9 @@
 - (void)activateApp: (CDVInvokedUrlCommand*)command {
     CDVPluginResult* pluginResult = nil;
 
-    NSLog(@"activateApp called");
     [FBSDKAppEvents activateApp];
 
-    [CDVPluginResult resultWithStatus:CDVCommandStatus_OK];
+    pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK];
     [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
 }
 
