@@ -85,7 +85,7 @@
         <activity android:label="@string/fb_app_name" android:name="com.facebook.LoginActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"></activity>
       </config-file>
 
-      <framework src="platforms/android/lib/facebook-android-sdk-4.16.0.aar" custom="true" />
+      <framework src="platforms/android/lib/" custom="true" />
 
       <!-- cordova plugin src files -->
       <source-file src="platforms/android/src/FacebookNativeSDK.java" target-dir="src/org/apache/cordova/facebook" />
