@@ -4,8 +4,6 @@ Integrates native facebook SDK with cordova projects
 ## Roadmap
 
 - Compatibility with Android
-- Track app launch
-- Export native Facebook API through a Javascript interface
 
 ## Facebook SDK
 
@@ -45,3 +43,25 @@ Facebook configuration for this application ID will be automatically included in
 ### Classic cordova plugin
 
 - More info soon
+
+## Usage
+
+A variable named  `FacebookNativeSDK` is exported  and  is available anywhere in the application and also in the window object.
+
+### Reference
+
+- Coming soon
+
+### Example
+
+```
+if (typeof FacebookNativeSDK != "undefined" && typeof FacebookNativeSDK.activateApp != "undefined") {
+    FacebookNativeSDK.activateApp(function () {
+        console.info("[Info] - Success calling facebook activate app");
+    }, function (error) {
+        console.warn("[Warn] - Cannot activate facebook app. Error : ", error);
+    })
+} else {
+    console.warn("[Warn] - Cannot activate facebook app (FacebookNativeSDK not found)");
+}
+```
