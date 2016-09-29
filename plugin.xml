@@ -25,11 +25,11 @@
       <header-file src="platforms/ios/FacebookNativeSDK.h" />
       <source-file src="platforms/ios/FacebookNativeSDK.m" />
 
-      <feature name="FacebookNativeSDK">
-          <param name="ios-package" value="FacebookNativeSDK" />
-      </feature>
-
-      <plugin name="FacebookNativeSDK" value="FacebookNativeSDK" />
+      <config-file target="config.xml" parent="/*">
+          <feature name="FacebookNativeSDK">
+              <param name="ios-package" value="FacebookNativeSDK"/>
+          </feature>
+      </config-file>
 
       <!-- FB require this variables in Plist -->
       <config-file target="*-Info.plist" parent="FacebookAppID">
