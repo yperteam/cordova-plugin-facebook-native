@@ -20,6 +20,6 @@ public class FacebookNativeSDK extends CordovaPlugin {
     }
 
     private void activateApp(CallbackContext callbackContext) {
-      callbackContext.success(message);
+      callbackContext.success(true);
     }
 }
