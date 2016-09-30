@@ -11,7 +11,6 @@ public class FacebookNativeSDK extends CordovaPlugin {
 
     @Override
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
-        System.out.println("Print");
         if (action.equals("activateApp")) {
             this.activateApp(callbackContext);
             return true;
@@ -20,6 +19,7 @@ public class FacebookNativeSDK extends CordovaPlugin {
     }
 
     private void activateApp(CallbackContext callbackContext) {
+      System.out.println("Print");
       callbackContext.success(true);
     }
 }
