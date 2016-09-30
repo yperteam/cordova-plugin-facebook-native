@@ -64,6 +64,11 @@
     <!-- android -->
     <platform name="android">
 
+      <feature name="FacebookNativeSDK">
+          <param name="android-package" value="org.apache.cordova.plugin.FacebookNativeSDK" />
+          <param name="onload" value="true" />
+      </feature>
+
       <config-file target="res/xml/config.xml" parent="/*">
         <feature name="FacebookNativeSDK" >
           <param name="android-package" value="org.apache.cordova.plugin.FacebookNativeSDK"/>
