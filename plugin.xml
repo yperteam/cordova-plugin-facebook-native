@@ -76,6 +76,13 @@
         </feature>
       </config-file>
 
+      <config-file parent="/widget" target="res/xml/config.xml">
+          <feature name="ScanditSDK">
+              <param name="android-package" value="com.mirasense.scanditsdk.plugin.ScanditSDK"/>
+          </feature>
+      </config-file>
+
+
       <source-file src="platforms/android/src/org/apache/cordova/plugin/FacebookNativeSDK.java" target-dir="src/org/apache/cordova/plugin/" />
 
     </platform>
