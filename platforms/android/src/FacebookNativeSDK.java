@@ -7,6 +7,7 @@ import org.apache.cordova.CallbackContext;
 import android.R;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.app.AlertDialog;
 
 public class FacebookNativeSDK extends CordovaPlugin {
 
