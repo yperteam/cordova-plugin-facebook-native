@@ -1,13 +1,11 @@
 package org.apache.cordova.plugin;
 
-import org.json.JSONArray;
-import org.json.JSONException;
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CallbackContext;
-import android.R;
-import android.content.Context;
-import android.content.DialogInterface;
-import android.app.AlertDialog;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 public class FacebookNativeSDK extends CordovaPlugin {
 
@@ -20,8 +18,8 @@ public class FacebookNativeSDK extends CordovaPlugin {
         return false;
     }
 
-  private void activateApp(CallbackContext callbackContext) {
-    System.out.println("Print");
-    callbackContext.success();
-  }
+    private void activateApp(CallbackContext callbackContext) {
+      System.out.println("Print");
+      callbackContext.success();
+    }
 }
