@@ -7,19 +7,25 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import android.R;
+import android.content.Context;
+import android.content.DialogInterface;
+import android.app.AlertDialog;
+
 public class FacebookNativeSDK extends CordovaPlugin {
 
     @Override
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
-        if("activateApp".equals(action)){
+        return true
+        /*if("activateApp".equals(action)){
             //callbackContext.success();
             return true;
         }
-        return false;
+        return false;*/
     }
 
-    private void activateApp(CallbackContext callbackContext) {
+    /*private void activateApp(CallbackContext callbackContext) {
       System.out.println("Print");
       callbackContext.success();
-    }
+    }*/
 }
