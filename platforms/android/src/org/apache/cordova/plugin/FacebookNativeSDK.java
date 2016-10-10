@@ -11,8 +11,8 @@ public class FacebookNativeSDK extends CordovaPlugin {
 
     @Override
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
-        if (action.equals("activateApp")) {
-            this.activateApp(callbackContext);
+        if("activateApp".equals(action)){
+            //callbackContext.success();
             return true;
         }
         return false;
