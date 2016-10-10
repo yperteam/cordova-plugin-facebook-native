@@ -14,18 +14,24 @@ import android.app.AlertDialog;
 
 public class FacebookNativeSDK extends CordovaPlugin {
 
-    @Override
+    public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
+        
+        callbackContext.error("AlertPlugin."+action+" not found !");
+        return false;
+    }
+
+    /*@Override
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
         return true;
-        /*if("activateApp".equals(action)){
+        if("activateApp".equals(action)){
             //callbackContext.success();
             return true;
         }
-        return false;*/
+        return false;
     }
 
     private void activateApp(CallbackContext callbackContext) {
       System.out.println("Print");
       callbackContext.success();
-    }
+    }*/
 }
