@@ -1,7 +1,14 @@
-function Plugin(){}
-Plugin.alert = function(content){
-  var onSuccess = function(){};
-  var onFail = function(){};
-  cordova.exec(onSuccess, onFail, 'AlertPlugin', 'alert', [content]);
-};
-module.exports = Plugin;
+var exec = require("cordova/exec");
+
+var FacebookNativeSDK = {
+
+  activateApp: function (s, f) {
+    console.log("CALLED !!!");
+    exec(s, f, "FacebookNativeSDK", "activateApp", []);
+  }
+
+}
+
+window.FacebookNativeSDK = FacebookNativeSDK;
+
+module.exports = FacebookNativeSDK;
