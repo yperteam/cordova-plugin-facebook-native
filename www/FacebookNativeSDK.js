@@ -4,9 +4,10 @@ function FacebookNativeSDK(){}
 
 FacebookNativeSDK.activateApp = function(content){
   console.log("CALLED !!!");
-  var onSuccess = function(){};
+  /*var onSuccess = function(){};
   var onFail = function(){};
-  cordova.exec(onSuccess, onFail, 'AlertPlugin', 'alert', [content]);
+  cordova.exec(onSuccess, onFail, 'AlertPlugin', 'alert', [content]);*/
+ 
 };
 /*var FacebookNativeSDK = {
 
