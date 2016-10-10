@@ -24,8 +24,8 @@ public class FacebookNativeSDK extends CordovaPlugin {
         return false;*/
     }
 
-    /*private void activateApp(CallbackContext callbackContext) {
+    private void activateApp(CallbackContext callbackContext) {
       System.out.println("Print");
       callbackContext.success();
-    }*/
+    }
 }
