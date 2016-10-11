@@ -13,11 +13,15 @@ public class FacebookNativeSDK extends CordovaPlugin {
 
     @Override
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
-        if (action.equals("activateApp")) {
-            this.activateApp(callbackContext);
+        
+        if("activateApp".equals(action)){
+            activateApp(callbackContext)
+            callbackContext.success();
             return true;
+        } else {
+            callbackContext.error("FacebookNativeSDK."+action+" not found !");
+            return false;
         }
-        return false;
     }
 
   private void activateApp(CallbackContext callbackContext) {
