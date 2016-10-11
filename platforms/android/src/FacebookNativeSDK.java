@@ -1,4 +1,4 @@
-package com.example.cordova.alert;
+package com.apache.cordova.plugin;
 
 import org.json.JSONArray;
 import org.json.JSONException;
