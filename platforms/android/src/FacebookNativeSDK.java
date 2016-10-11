@@ -7,13 +7,12 @@ import org.apache.cordova.CallbackContext;
 import android.R;
 import android.content.Context;
 import android.content.DialogInterface;
-import android.app.AlertDialog;
 
 public class FacebookNativeSDK extends CordovaPlugin {
 
     @Override
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
-        
+        System.out.println("Exec");
         if("activateApp".equals(action)){
             activateApp(callbackContext);
             callbackContext.success();
