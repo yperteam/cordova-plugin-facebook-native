@@ -1,4 +1,4 @@
-package org.apache.cordova.plugin;
+package com.example.cordova.alert;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -10,7 +10,6 @@ import android.content.DialogInterface;
 
 public class FacebookNativeSDK extends CordovaPlugin {
 
-    @Override
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
         System.out.println("Exec");
         if("activateApp".equals(action)){
