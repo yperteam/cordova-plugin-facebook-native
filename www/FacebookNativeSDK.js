@@ -4,8 +4,8 @@ var FacebookNativeSDK = {
 
   activateApp: function (s, f) {
     console.log("CALLED !!!");
-    cnsole.log(s);
-    cnsole.log(f);
+    console.log(s);
+    console.log(f);
     exec(s, f, "FacebookNativeSDK", "activateApp", []);
   }
 
