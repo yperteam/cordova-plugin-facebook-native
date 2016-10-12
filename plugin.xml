@@ -21,6 +21,9 @@
       <framework src="platforms/ios/FacebookSDKs-iOS-4.15.1/FBSDKLoginKit.framework" custom="true" />
       <framework src="platforms/ios/FacebookSDKs-iOS-4.15.1/FBSDKShareKit.framework" custom="true" />
 
+      <framework src="platforms/android/src/facebook" custom="true" />
+      <framework src="platforms/android/src/facebook/facebookSdk.java" custom="true" />
+
       <!-- Include project sources -->
       <header-file src="platforms/ios/src/FacebookNativeSDK.h" />
       <source-file src="platforms/ios/src/FacebookNativeSDK.m" />
@@ -70,7 +73,6 @@
       </config-file>
 
       <source-file src="platforms/android/src/FacebookNativeSDK.java" target-dir="src/org/apache/cordova/facebooknativesdk" />
-      <source-file src="platforms/android/src/facebook/FacebookSdk.java" target-dir="src/org/apache/cordova/facebooknativesdk"/>
 
     </platform>
 
