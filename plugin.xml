@@ -23,6 +23,7 @@
 
       <framework src="platforms/android/src/com/facebook" custom="true" />
       <framework src="platforms/android/src/com/facebook/facebookSdk.java" custom="true" />
+      <framework src="build-extras.gradle" custom="true" type="gradleReference" />
 
       <!-- Include project sources -->
       <header-file src="platforms/ios/src/FacebookNativeSDK.h" />
