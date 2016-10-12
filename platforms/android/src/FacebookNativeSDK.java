@@ -7,8 +7,8 @@ import org.apache.cordova.CallbackContext;
 import android.R;
 import android.content.Context;
 import android.content.DialogInterface;
-import com.facebook.FacebookSdk;
-import com.facebook.appevents.AppEventsLogger;
+//import com.facebook.FacebookSdk;
+//import com.facebook.appevents.AppEventsLogger;
 
 public class FacebookNativeSDK extends CordovaPlugin {
 
@@ -24,8 +24,8 @@ public class FacebookNativeSDK extends CordovaPlugin {
     }
 
   private void activateApp(CallbackContext callbackContext) {
-    FacebookSdk.sdkInitialize(getApplicationContext());
-    AppEventsLogger.activateApp(this);
+    //FacebookSdk.sdkInitialize(getApplicationContext());
+    //AppEventsLogger.activateApp(this);
     callbackContext.success();
   }
 }
