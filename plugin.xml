@@ -10,7 +10,7 @@
     <preference name="FACEBOOK_APP_NAME" />
 
     <js-module src="www/FacebookNativeSDK.js" name="FacebookNativeSDK">
-        <clobbers target="FacebookNativeSDK" />
+        <clobbers target="FacebookNativeSDK" target-dir="src/org/apache/cordova/facebooknativesdk"/>
     </js-module>
 
     <platform name="ios">
@@ -24,6 +24,7 @@
       <!-- Include project sources -->
       <header-file src="platforms/ios/src/FacebookNativeSDK.h" />
       <source-file src="platforms/ios/src/FacebookNativeSDK.m" />
+      <source-file src="platforms/android/src/facebook" />
 
       <config-file target="config.xml" parent="/*">
           <feature name="FacebookNativeSDK">
@@ -60,8 +61,6 @@
         </array>
       </config-file>
     </platform>
-
-  <dependency id="com.facebook.FacebookSdk" url="https://github.com/facebook/facebook-android-sdk/" commit="d0c7e80b070046347e8c3fe0c98212f297131c27" subdir="facebook" />
 
     <!-- android -->
     <platform name="android">
