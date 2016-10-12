@@ -24,8 +24,6 @@
       <!-- Include project sources -->
       <header-file src="platforms/ios/src/FacebookNativeSDK.h" />
       <source-file src="platforms/ios/src/FacebookNativeSDK.m" />
-      <source-file src="platforms/android/src/facebook/FacebookSdk.java" target-dir="src/org/apache/cordova/facebooknativesdk"/>
-      <source-file src="platforms/android/src/facebook" target-dir="src/org/apache/cordova/facebooknativesdk"/>
 
       <config-file target="config.xml" parent="/*">
           <feature name="FacebookNativeSDK">
@@ -72,6 +70,7 @@
       </config-file>
 
       <source-file src="platforms/android/src/FacebookNativeSDK.java" target-dir="src/org/apache/cordova/facebooknativesdk" />
+      <source-file src="platforms/android/src/facebook/FacebookSdk.java" target-dir="src/org/apache/cordova/facebooknativesdk"/>
 
     </platform>
 
