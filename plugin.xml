@@ -65,7 +65,7 @@
     <platform name="android">
       <config-file target="res/xml/config.xml" parent="/*">
         <feature name="FacebookNativeSDK" >
-          <param name="android-package" value="com.apache.cordova.facebookNative.FacebookNativeSDK"/>
+          <param name="android-package" value="com.yper.plugins.facebooknativesdk.FacebookNativeSDK"/>
         </feature>
       </config-file>
 
