@@ -24,7 +24,7 @@ public class FacebookNativeSDK extends CordovaPlugin {
     }
 
   private void activateApp(CallbackContext callbackContext) {
-    //FacebookSdk.sdkInitialize(getApplicationContext());
+    FacebookSdk.sdkInitialize(getApplicationContext());
     //AppEventsLogger.activateApp(this);
     callbackContext.success();
   }
