@@ -69,7 +69,7 @@
         </feature>
       </config-file>
 
-      <source-file src="platforms/android/src/FacebookNativeSDK.java" target-dir="src/org/apache/cordova/plugin" />
+      <source-file src="platforms/android/src/FacebookNativeSDK.java" target-dir="src/org/apache/cordova/facebooknativesdk" />
 
     </platform>
 
