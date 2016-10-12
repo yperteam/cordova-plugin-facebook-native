@@ -1,4 +1,4 @@
-package org.apache.cordova.facebooknativesdk;
+package com.yper.plugins.facebooknativesdk;
 
 import org.json.JSONArray;
 import org.json.JSONException;

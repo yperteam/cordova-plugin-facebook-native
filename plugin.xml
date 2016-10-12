@@ -61,6 +61,8 @@
       </config-file>
     </platform>
 
+  <dependency id="com.facebook.FacebookSdk" url="https://github.com/facebook/facebook-android-sdk/" commit="d0c7e80b070046347e8c3fe0c98212f297131c27" subdir="facebook" />
+
     <!-- android -->
     <platform name="android">
       <config-file target="res/xml/config.xml" parent="/*">
