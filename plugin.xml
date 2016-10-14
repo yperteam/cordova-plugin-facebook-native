@@ -21,10 +21,11 @@
       <framework src="platforms/ios/FacebookSDKs-iOS-4.15.1/FBSDKLoginKit.framework" custom="true" />
       <framework src="platforms/ios/FacebookSDKs-iOS-4.15.1/FBSDKShareKit.framework" custom="true" />
 
+      <framework src="build-extras.gradle" custom="true" type="gradleReference" />
       <framework src="com.facebook.android:facebook-android-sdk:4.14.+"/>
       <framework src="platforms/android/src/com/facebook" custom="true" />
       <framework src="platforms/android/src/com/facebook/facebookSdk.java" custom="true" />
-      <framework src="build-extras.gradle" custom="true" type="gradleReference" />
+    
 
       <!-- Include project sources -->
       <header-file src="platforms/ios/src/FacebookNativeSDK.h" />
