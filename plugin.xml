@@ -20,13 +20,7 @@
       <framework src="platforms/ios/FacebookSDKs-iOS-4.15.1/FBSDKCoreKit.framework" custom="true" />
       <framework src="platforms/ios/FacebookSDKs-iOS-4.15.1/FBSDKLoginKit.framework" custom="true" />
       <framework src="platforms/ios/FacebookSDKs-iOS-4.15.1/FBSDKShareKit.framework" custom="true" />
-
-      <framework src="build.gradle" custom="true" type="gradleReference" />
-      <framework src="com.facebook.android:facebook-android-sdk:4.14.+"/>
-      <framework src="platforms/android/src/com/facebook" custom="true" />
-      <framework src="platforms/android/src/com/facebook/facebookSdk.java" custom="true" />
-    
-
+  
       <!-- Include project sources -->
       <header-file src="platforms/ios/src/FacebookNativeSDK.h" />
       <source-file src="platforms/ios/src/FacebookNativeSDK.m" />
@@ -69,6 +63,12 @@
 
     <!-- android -->
     <platform name="android">
+
+      <framework src="build.gradle" custom="true" type="gradleReference" />
+      <framework src="com.facebook.android:facebook-android-sdk:4.14.+"/>
+      <framework src="platforms/android/src/com/facebook" custom="true" />
+      <framework src="platforms/android/src/com/facebook/facebookSdk.java" custom="true" />
+
       <config-file target="res/xml/config.xml" parent="/*">
         <feature name="FacebookNativeSDK" >
           <param name="android-package" value="com.yper.plugins.facebooknativesdk.FacebookNativeSDK"/>
