@@ -7,13 +7,12 @@ import org.apache.cordova.CallbackContext;
 import android.R;
 import android.content.Context;
 import android.content.DialogInterface;
-import com.facebook;
 import com.facebook.FacebookSdk;
 import com.facebook.appevents.AppEventsLogger;
 
 public class FacebookNativeSDK extends CordovaPlugin {
 
-    public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
+    /*public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
         if("activateApp".equals(action)){
             activateApp(callbackContext);
             callbackContext.success();
@@ -28,5 +27,5 @@ public class FacebookNativeSDK extends CordovaPlugin {
     //FacebookSdk.sdkInitialize(getApplicationContext());
     //AppEventsLogger.activateApp(this);
     callbackContext.success();
-  }
+  }*/
 }
